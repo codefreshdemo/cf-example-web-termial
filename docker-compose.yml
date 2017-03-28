@@ -1,13 +1,16 @@
 version: '2'
 services:
   my-service:
-    image: 'containers101/whomi:master'
+    build:
+      context: ./whomi
+      dockerfile: Dockerfile
     volumes:
       - my-service:/app
     ports:
       - '1337'
   terminal:
-    image: 'containers101/cfterminal:master'
+    build:
+      dockerfile: Dockerfile
     ports:
       - '8000'
     volumes_from:

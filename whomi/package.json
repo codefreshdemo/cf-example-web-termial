@@ -1,0 +1,30 @@
+{
+  "name": "whomi",
+  "version": "1.0.0",
+  "description": "Demonstrate the Codefresh's passive service discovery capabilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/containers101/who-m-i.git"
+  },
+  "keywords": [
+    "docker",
+    "containers",
+    "composition",
+    "service-discovery",
+    "codefresh"
+  ],
+  "author": "Noam Tenne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/containers101/who-m-i/issues"
+  },
+  "homepage": "https://github.com/containers101/who-m-i#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta6"
+  }
+}
