@@ -10,6 +10,7 @@ services:
       - '1337'
   terminal:
     build:
+      context: ./
       dockerfile: Dockerfile
     ports:
       - '8000'
